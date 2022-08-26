@@ -43,11 +43,13 @@ a{
     padding-left: 300px;
     padding-right: 300px;
     padding-top: 20px;
+    padding-bottom: 20px;
     
 }
 
 .left{
     flex-direction: column;
+    
 }
 
 .title{
@@ -55,16 +57,24 @@ a{
     font-weight: bolder ;
     color: #F9FAF8;
     margin: 0;
+    width: 450px;
 }
 
 .text{
     font-size: 40px;
     font-size: 18px;
     color: #e5e7eb;
+    width: 450px;
 }
 
-.right{
+.image_placeholder{
     color: #e5e7eb;
+    background-color: grey;
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+
 }
 
 button.sign_up{
