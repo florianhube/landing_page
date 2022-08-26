@@ -89,19 +89,34 @@ button.sign_up{
     margin-bottom: 10px;
     border: none;
     text-align: center;
+}
 
-}   
 .container_02_title{
     color: #1F2937;
+    background-color: white;
     font-size: 36px;
     font-weight: bolder;
     text-align: center;
 }
 
-.button-image-text{
+.container_02_button{
     display: flex;
-    align-items: center;
     justify-content: center;
+    gap: 150px;
+}
+
+
+.button-image-text{
+    max-width: 150px;
+}
+
+.button_02{
+    background-color: white;
+    border-color: #3882F6;
+    border-radius: 8px;
+    border-width: 3px;
+    width: 200px;
+    height: 200px;
 }
 
 .footer{
