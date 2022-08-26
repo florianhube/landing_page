@@ -1,4 +1,5 @@
 body{
+    font-family: roboto;
     margin: 0;
     position: relative;
     min-height: 100vh;
@@ -77,15 +78,6 @@ a{
 
 }
 
-.container_02_title{
-    color: #1F2937;
-    font-size: 36px;
-    font-weight: bolder;
-    text-align: center;
-
-
-}
-
 button.sign_up{
     background-color: #3882F6;
     color: #F9FAF8;
@@ -99,6 +91,18 @@ button.sign_up{
     text-align: center;
 
 }   
+.container_02_title{
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.button-image-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 .footer{
     background-color: #1f2937;
