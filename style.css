@@ -91,6 +91,7 @@ button.sign_up{
     text-align: center;
 }
 
+
 .container_02_title{
     color: #1F2937;
     background-color: white;
@@ -102,21 +103,50 @@ button.sign_up{
 .container_02_button{
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 150px;
 }
 
 
 .button-image-text{
     max-width: 150px;
+    
 }
 
 .button_02{
     background-color: white;
     border-color: #3882F6;
-    border-radius: 8px;
-    border-width: 3px;
+    border-radius: 15px;
+    border-width: 10px;
     width: 200px;
     height: 200px;
+    text-decoration: none;
+
+}
+
+.text_02{
+    display: flex;
+    text-align: center;
+}
+
+.container_03{
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px;
+    
+}
+
+.text_03{
+   color: #1f2937;
+   font-size: 36px;
+   width: 1000px;
+}
+
+.author{
+  text-align: end;
+  font-weight: bold;
 }
 
 .footer{
